@@ -40,43 +40,48 @@
         <section class="header-body">
            <div class="container">
                <div class="row">
-                   <div class="col-lg-3 header_body_left">
+                   <div class="col-lg-3 col-md-3 header_body_left">
                        <div class="logo">
                            <img src="public/images/2018/06/logomaiche.png" alt="" class="img-fluid">
                        </div>
                    </div>
-                   <div class="col-lg-9 header_body_right">
-                       <nav class="navbar navbar-expand-xl ">
-                           <a class="navbar-brand" href="#">
-                           </a>
-                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentXL" aria-controls="navbarSupportedContentXL" aria-expanded="false" aria-label="Toggle navigation">
-                               <i class="fas fa-bars"></i>
-                           </button>
-
-                           <div class="collapse navbar-collapse" id="navbarSupportedContentXL">
-                               <ul class="navbar-nav mr-auto">
-                                   <li class="nav-item active">
-                                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                   </li>
-                                   <li class="nav-item">
-                                       <a class="nav-link" href="#">Link</a>
-                                   </li>
-                                   <li class="nav-item dropdown">
-                                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownXL" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                           Dropdown
+                   <div class="col-lg-9 col-md-9 header_body_right">
+                       <nav class="nav" role="navigation">
+                      <span class="toggleNav">
+                          <i class="fas fa-bars"></i>
+                      </span>
+                           <ul class="nav__list" id="sideNav">
+                               <div class="container nav__menu__right">
+                                   <div class="nav__list-right">
+                                       <a class="closeBtn" style="color: white">
+                                           <i class="fas fa-times"></i>
                                        </a>
-                                       <div class="dropdown-menu" aria-labelledby="navbarDropdownXL">
-                                           <a class="dropdown-item" href="#">Action</a>
-                                           <a class="dropdown-item" href="#">Another action</a>
-                                           <div class="dropdown-divider"></div>
-                                           <a class="dropdown-item" href="#">Something else here</a>
-                                       </div>
-                                   </li>
-                                   <li class="nav-item">
-                                       <a class="nav-link" href="#">Link</a>
-                                   </li>
-                               </ul>
-                           </div>
+                                       <li>
+                                           <a class="nav__item active" href="">TRANG CHỦ</a>
+                                       </li>
+                                       <li>
+                                           <a class="nav__item" href="Destinations.html">GIỚI THIỆU</a>
+                                       </li>
+                                       <li>
+                                           <a class="nav__item" href="Typeofvacation.html">SẢN PHẨM</a>
+                                       </li>
+                                       <li>
+                                           <a class="nav__item" href="Customizedvacation.html">DỊCH VỤ</a>
+                                       </li>
+                                       <li>
+                                           <a class="nav__item" href="Contactus.html">LIÊN HỆ</a>
+                                       </li>
+                                       <li>
+                                           <a class="nav__item search_click" href="#">
+                                               <i class="fa fa-search"></i>
+                                           </a>
+                                       </li>
+                                   </div>
+                               </div>
+                               <div class="nav__list-left">
+                                   <div class="page__overlay"></div>
+                               </div>
+                           </ul>
                        </nav>
 
                    </div>
@@ -112,13 +117,13 @@
         <section class="banner-img">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 mt-4 banner_img">
                         <img src="public/images/2018/06/banner1.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 mt-4 banner_img">
                         <img src="public/images/2018/06/banner3.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 mt-4 banner_img">
                         <img src="public/images/2018/06/banner2.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
@@ -217,6 +222,7 @@
             <div class="container">
                 <div class="col-lg-8 content-tex">
                     <h4>Về chúng tôi</h4>
+                    <div class="boder-item mb-4"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque 
                         blanditiis cupiditate delectus earum molestias natus nesciunt praesentium quas, 
                         quibusdam quos repellat reprehenderit saepe voluptatem voluptates voluptatibus.
@@ -395,25 +401,27 @@
                 </div>
                 <div class="col-lg-3 col-md-3">
                     <div class="rt-footer footer-2 widget_wrap">
-                        <div id="nav_menu-5" class="widget widget_nav_menu"><h3 class="widget-title">Thông tin</h3>
+                        <div id="nav_menu-5" class="widget widget_nav_menu">
+                            <h3 class="widget-title">Thông tin</h3>
+                            <div class="boder-item  mb-4"></div>
                             <div class="menu-thong-tin-container">
                                 <ul id="menu-thong-tin" class="menu">
                                     <li id="menu-item-306"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-306">
-                                        <a href="index40a4.html?product_cat=san-pham-noi-bat">Sản phẩm nổi bật</a></li>
+                                        <a href="">Sản phẩm nổi bật</a></li>
                                     <li id="menu-item-307"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-307">
-                                        <a href="index1694.html?product_cat=lookbook-bo-suu-tap">Lookbook/Bộ sưu tập</a>
+                                        <a href="">Lookbook/Bộ sưu tập</a>
                                     </li>
                                     <li id="menu-item-308"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-308"><a
-                                            href="index17dc.html?page_id=271">Hệ thống cửa hàng</a></li>
+                                            href="">Hệ thống cửa hàng</a></li>
                                     <li id="menu-item-309"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309"><a
-                                            href="indexe43e.html?page_id=273">Câu hỏi thường gặp</a></li>
+                                            href="">Câu hỏi thường gặp</a></li>
                                     <li id="menu-item-310"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310"><a
-                                            href="index7650.html?page_id=275">Điều khoản mua hàng</a></li>
+                                            href="">Điều khoản mua hàng</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -421,24 +429,26 @@
                 </div>
                 <div class="col-lg-3 col-md-3">
                     <div class="rt-footer footer-3 widget_wrap">
-                        <div id="nav_menu-6" class="widget widget_nav_menu"><h3 class="widget-title">Dịch vụ khách hàng</h3>
+                        <div id="nav_menu-6" class="widget widget_nav_menu">
+                            <h3 class="widget-title">Dịch vụ khách hàng</h3>
+                            <div class="boder-item  mb-4"></div>
                             <div class="menu-dich-vu-khach-hang-container">
                                 <ul id="menu-dich-vu-khach-hang" class="menu">
                                     <li id="menu-item-311"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311"><a
-                                            href="index62d4.html?page_id=261">Về chúng tôi</a></li>
+                                            href="">Về chúng tôi</a></li>
                                     <li id="menu-item-312"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-312"><a
-                                            href="index9008.html?page_id=263">Tuyển dụng</a></li>
+                                            href="">Tuyển dụng</a></li>
                                     <li id="menu-item-313"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-313"><a
-                                            href="indexc5f0.html?page_id=265">Chính sách vận chuyển</a></li>
+                                            href="">Chính sách vận chuyển</a></li>
                                     <li id="menu-item-314"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314"><a
-                                            href="index6ea9.html?page_id=267">Chính sách đổi trả hàng</a></li>
+                                            href="">Chính sách đổi trả hàng</a></li>
                                     <li id="menu-item-315"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315"><a
-                                            href="index3dcb.html?page_id=269">Chính sách bảo mật</a></li>
+                                            href="">Chính sách bảo mật</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -448,6 +458,7 @@
                     <div class="rt-footer footer-4 widget_wrap">
                         <div id="text-6" class="widget widget_text"><h3 class="widget-title">Đăng ký nhận tin khuyến
                             mãi</h3>
+                            <div class="boder-item mb-4"></div>
                             <div class="textwidget">
                                 <div role="form" class="wpcf7" id="wpcf7-f316-o1" lang="vi" dir="ltr">
                                     <div class="screen-reader-response"></div>
@@ -491,7 +502,7 @@
 </div>
         </div>
     <div class="copyright clear">
-        <div class="container text-center">
+        <div class="container text-center" style="font-size: 14px">
             © Chuyên thiết kế website | Thiết kế bởi DN Group
         </div>
 

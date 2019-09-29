@@ -1,3 +1,31 @@
+(navDuty => {
+    const sideNav = document.getElementById('sideNav');
+    const closeNavBtn = document.querySelector('.closeBtn');
+    const toggleNavBtn = document.querySelector('.toggleNav');
+    const pageOverlay = document.querySelector('.page__overlay');
+
+    // Nav listeners
+    closeNavBtn.addEventListener('click', toggleNav);
+    toggleNavBtn.addEventListener('click', toggleNav);
+    pageOverlay.addEventListener('click', toggleNav);
+    // Nav funtion
+    function toggleNav() {
+        sideNav.classList.toggle('open');
+    };
+
+    // (on mobile) close nav menu when link is clicked
+    // this is useful on mobile when clicking an anchor tag on the current page (eg. index.html#last-section)
+    let navItems = document.querySelectorAll(".nav__item");
+    for (var i = 0; i < navItems.length; i++) {
+        navItems[i].addEventListener('click', function (event) {
+            toggleNav();
+        });
+    }
+})();
+
+
+//non related
+
 $('.slick-list').slick({
     dots: true,
     infinite: false,
