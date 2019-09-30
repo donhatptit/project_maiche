@@ -525,3 +525,18 @@ section.banner-footer {
     }
 
 }
+
+
+.introduce_img img{
+    border-radius: 20px;
+}
+.product_item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_item .item{
+    width: 33%;
+}
+.product-card{
+    max-height: 600px !important;
+}
