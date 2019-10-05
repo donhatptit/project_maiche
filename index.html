@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="public/css/slick.css">
     <link rel="stylesheet" href="public/css/slick-theme.css">
     <script type="text/javascript" src="public/js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="public/js/popper.min.js"></script>
     <title>Trang chủ</title>
 </head>
 <body>
@@ -60,16 +61,23 @@
                                            <a class="nav__item active" href="">TRANG CHỦ</a>
                                        </li>
                                        <li>
-                                           <a class="nav__item" href="Destinations.html">GIỚI THIỆU</a>
+                                           <a class="nav__item" href="">GIỚI THIỆU</a>
+                                       </li>
+                                       <li >
+                                           <a href="" class="submenu dropdown-toggle nav__item"  id="dropdownMenuButton" data-toggle="dropdown">SẢN PHẨM</a>
+                                           <ul class="dropdown-menu">
+                                               <li class="dropdown-item"><a href="">ok</a></li>
+                                               <li class="dropdown-item"><a href="">ok</a></li>
+                                               <li class="dropdown-item"><a href="">ok</a></li>
+                                           </ul>
+
                                        </li>
                                        <li>
-                                           <a class="nav__item" href="Typeofvacation.html">SẢN PHẨM</a>
+                                           <a class="nav__item" href="">DỊCH VỤ
+                                           </a>
                                        </li>
                                        <li>
-                                           <a class="nav__item" href="Customizedvacation.html">DỊCH VỤ</a>
-                                       </li>
-                                       <li>
-                                           <a class="nav__item" href="Contactus.html">LIÊN HỆ</a>
+                                           <a class="nav__item" href="">LIÊN HỆ</a>
                                        </li>
                                        <li>
                                            <a class="nav__item search_click" href="#">
@@ -88,6 +96,16 @@
                </div>
            </div>
         </section>
+        <div class="search__overlay">
+            <div class="search__menu">
+                <form action="" method="">
+                    <input type="text" class="form-control" placeholder="Enter your search here"><i class="fas fa-search"></i>
+                </form>
+            </div>
+            <div class="search__close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
         <section class="header-slider">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -114,117 +132,14 @@
         </section>
     </header>
     <main>
-        <section class="banner-img">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 mt-4 banner_img">
-                        <img src="public/images/2018/06/banner1.jpg" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt-4 banner_img">
-                        <img src="public/images/2018/06/banner3.jpg" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt-4 banner_img">
-                        <img src="public/images/2018/06/banner2.jpg" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="product-list">
-                <h2 class="heading">
-                    <a href="#">Hàng Mới Về</a>
-                </h2>
-            <div class="product-home">
-                <div class="container">
-                    <div class="slick-list draggable">
-                        <div class="item">
-                            <div class="card item-card">
-                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
-                                <div class="card-body">
-                                    <h4><a href="">Hanoi + Halong + Sapa package tour 7 days</a></h4>
-                                    <div class='star_pro'>
-                                        <i class="far fa-star"></i>
-                                    </div>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary text-center">Giá: Liên hệ</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card item-card">
-                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
-                                <div class="card-body">
-                                    <h4><a href="Tourdetail.html">Hanoi + Halong + Sapa package tour 7 days</a></h4>
-                                    <div class='star_pro'>
-                                        <i class="far fa-star"></i>
-                                    </div>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary text-center">Giá: Liên hệ</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card item-card">
-                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
-                                <div class="card-body">
-                                    <h4><a href="Tourdetail.html">Hanoi + Halong + Sapa package tour 7 days</a></h4>
-                                    <div class='star_pro'>
-                                        <i class="far fa-star"></i>
-                                    </div>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary text-center">Giá: Liên hệ</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card item-card">
-                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
-                                <div class="card-body">
-                                    <h4><a href="">Hanoi + Halong + Sapa package tour 7 days</a></h4>
-                                    <div class='star_pro'>
-                                        <i class="far fa-star"></i>
-                                    </div>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary text-center">Giá: Liên hệ</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card item-card">
-                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
-                                <div class="card-body">
-                                    <h4><a href="Tourdetail.html">Hanoi + Halong + Sapa package tour 7 days</a></h4>
-                                    <div class='star_pro'>
-                                        <i class="far fa-star"></i>
-                                    </div>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary text-center">Giá: Liên hệ</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="card item-card">
-                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
-                                <div class="card-body">
-                                    <h4><a href="Tourdetail.html">Hanoi + Halong + Sapa package tour 7 days</a></h4>
-                                    <div class='star_pro'>
-                                        <i class="far fa-star"></i>
-                                    </div>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary text-center">Giá: Liên hệ</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section class="info-vtc">
             <div class="container">
+                <h2 class="heading" style="margin-top: 55px">
+                    <a href="#">Về chúng tôi</a>
+                </h2>
                 <div class="col-lg-8 content-tex">
-                    <h4>Về chúng tôi</h4>
-                    <div class="boder-item mb-4"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque 
-                        blanditiis cupiditate delectus earum molestias natus nesciunt praesentium quas, 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                        blanditiis cupiditate delectus earum molestias natus nesciunt praesentium quas,
                         quibusdam quos repellat reprehenderit saepe voluptatem voluptates voluptatibus.
                         Accusantium, assumenda cum? Dolor.
                     </p>
@@ -246,6 +161,417 @@
                 </div>
                 <div class="col-lg-4">
                     <img src="" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="product-list">
+                <h2 class="heading">
+                    <a href="#">Mái Xếp Lướt Sóng</a>
+                </h2>
+            <div class="product-home">
+                <div class="container">
+                    <div class="slick-list draggable">
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="overlay">
+                                    <a href="#" class="icon" title="User Profile">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="overlay">
+                                    <a href="#" class="icon" title="User Profile">
+
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="overlay">
+                                    <a href="#" class="icon" title="User Profile">
+
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="overlay">
+                                    <a href="#" class="icon" title="User Profile">
+
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="overlay">
+                                    <a href="#" class="icon" title="User Profile">
+
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="overlay">
+                                    <a href="#" class="icon" title="User Profile">
+
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="overlay">
+                                    <a href="#" class="icon" title="User Profile">
+
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="overlay">
+                                    <a href="#" class="icon" title="User Profile">
+
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product-list">
+            <h2 class="heading">
+                <a href="#">Mái Xếp Lướt Sóng</a>
+            </h2>
+            <div class="product-home">
+                <div class="container">
+                    <div class="product_2 draggable">
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card item-card">
+                                <img src="public/images/2018/06/mai-hien-di-dong.jpg" alt="img" class="card-img-top img-fluid">
+                                <div class="card-body">
+                                    <h4 class="text-center"><a href="">Sản phẩm 1</a></h4>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class='star_pro'>
+                                                <img src="public/images/icon/rating.png" alt="">
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <p class="price">
+                                                Giá: Liên hệ
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -391,8 +717,7 @@
                             </a>
                         </div>
                         <div class="classic-text-widget">
-                            <p><i class="fa fa-map-marker"></i> Tầng 2 , tòa nhà HCMCC.
-                            249A Thụy Khuê,Tây Hồ, Hà Nội<br/>
+                            <p><i class="fa fa-map-marker"></i> 50/9E Khu Phố 4 - Quận12 - Hồ Chí Minh<br/>
                             <i class="fa fa-phone"></i> Hotline: 1800 2010 | 0989 866 266<br/>
                             <i class="fa fa-envelope"></i> Email: holalady@gmail.com<br/>
                             <i class="fa fa-globe"></i> Website: www.holalady.com.vn</p>
@@ -402,24 +727,24 @@
                 <div class="col-lg-3 col-md-3">
                     <div class="rt-footer footer-2 widget_wrap">
                         <div id="nav_menu-5" class="widget widget_nav_menu">
-                            <h3 class="widget-title">Thông tin</h3>
+                            <h3 class="widget-title">Danh mục sản phẩm</h3>
                             <div class="boder-item  mb-4"></div>
                             <div class="menu-thong-tin-container">
                                 <ul id="menu-thong-tin" class="menu">
-                                    <li id="menu-item-306"
+                                    <li id="menu-item-306 item_footer"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-306">
                                         <a href="">Sản phẩm nổi bật</a></li>
-                                    <li id="menu-item-307"
+                                    <li id="menu-item-307 item_footer"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-307">
                                         <a href="">Lookbook/Bộ sưu tập</a>
                                     </li>
-                                    <li id="menu-item-308"
+                                    <li id="menu-item-308 item_footer"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-308"><a
                                             href="">Hệ thống cửa hàng</a></li>
-                                    <li id="menu-item-309"
+                                    <li id="menu-item-309 item_footer"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309"><a
                                             href="">Câu hỏi thường gặp</a></li>
-                                    <li id="menu-item-310"
+                                    <li id="menu-item-310 item_footer"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310"><a
                                             href="">Điều khoản mua hàng</a></li>
                                 </ul>
@@ -437,9 +762,6 @@
                                     <li id="menu-item-311"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311"><a
                                             href="">Về chúng tôi</a></li>
-                                    <li id="menu-item-312"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-312"><a
-                                            href="">Tuyển dụng</a></li>
                                     <li id="menu-item-313"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-313"><a
                                             href="">Chính sách vận chuyển</a></li>
@@ -456,44 +778,10 @@
                 </div>
                 <div class="col-lg-3 col-md-3">
                     <div class="rt-footer footer-4 widget_wrap">
-                        <div id="text-6" class="widget widget_text"><h3 class="widget-title">Đăng ký nhận tin khuyến
-                            mãi</h3>
+                        <div id="text-6" class="widget widget_text"><h3 class="widget-title">Fanpage</h3>
                             <div class="boder-item mb-4"></div>
                             <div class="textwidget">
-                                <div role="form" class="wpcf7" id="wpcf7-f316-o1" lang="vi" dir="ltr">
-                                    <div class="screen-reader-response"></div>
-                                    <form action="http://khomaudepraothue.com/fashion2/#wpcf7-f316-o1" method="post"
-                                          class="wpcf7-form" novalidate="novalidate">
-                                        <div style="display: none;">
-                                            <input type="hidden" name="_wpcf7" value="316"/><br/>
-                                            <input type="hidden" name="_wpcf7_version" value="5.0.3"/><br/>
-                                            <input type="hidden" name="_wpcf7_locale" value="vi"/><br/>
-                                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f316-o1"/><br/>
-                                            <input type="hidden" name="_wpcf7_container_post" value="0"/>
-                                        </div>
-                                        <div class="form-dangky">
-                                        <span class="wpcf7-form-control-wrap email-503">
-											<input type="email" name="email-503" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                                   aria-required="true" aria-invalid="false" placeholder="Email của bạn..."/></span>
-                                            <input type="submit" value="Đăng ký" class="wpcf7-form-control wpcf7-submit"/></p>
-                                            <div class="text">Bạn hãy để mail để nhận được những tin tức khuyến mãi sớm nhất
-                                                từ chúng tôi!!!
-                                            </div>
-                                        </div>
-                                        <div class="wpcf7-response-output wpcf7-display-none"></div>
-                                    </form>
-                                </div>
-
-                            </div>
-                            <div id="imgqc-5" class="widget rt_widget img-qc">
-                                <div class="image-adv">
-                                    <div class="image-item">
-                                        <a href="#" rel="" title="">
-                                            <img src="public/images/2018/06/fb.png" alt=""/>
-                                        </a>
-                                    </div>
-                                </div>
-
+ok
                             </div>
                     </div>
                 </div>
@@ -509,7 +797,7 @@
     </div>
 
 <script type="text/javascript" src="public/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="public/js/popper.min.js"></script>
+
 <script type="text/javascript" src="public/js/all.min.js"></script>
 <script type="text/javascript" src="public/js/slick.min.js"></script>
 <script type="text/javascript" src="public/js/index.js"></script>
